@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      div {width: 120px; margin: auto; display: flex; justify-content: space-between;}
+    </style>
+    <title>Just For You &#129505</title>
+  </head>
+  <body style="text-align: center">
+   
+    <h1>Haloo Ayaaangg 💘 💘 </h1>
+    <h2>Do you love me ? :p </h2>
+    <div>
+      <button onclick="mau()">IYA</button>
+      <button onmouseover="gak(this)">GAK AH</button>
+    </div>
+    <script>
+      function mau() {
+        alert("MWHEHEHE GABISA KLIK GAK YA :P");
+        alert("JAWABANNYA LANGSUNG KIRIM YA :P");
+
+        location.assign("https://wa.me/62895422142063/?text=Iya%20Aku%20Cinta%20kamu%20><");
+      }
+      function gak(ini) {
+        ini.style.position = "absolute";
+        ini.style.left = `${Math.floor(Math.random() * 90)}%`;
+        ini.style.top = `${Math.floor(Math.random() * 90)}%`;
+      }
+    </script>
+  </body>
+</html>
